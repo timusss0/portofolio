@@ -2,7 +2,12 @@
 module.exports = {
   content: ['./public/index.html'],
   theme: {
-    extend: {},
+    extend: {
+      letterSpacing: {
+        sempit:'-0.5em',
+        lebarbet: '.7em',
+      }
+    },
   },
   plugins: [],
 }
