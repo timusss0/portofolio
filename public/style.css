@@ -567,6 +567,14 @@ video {
   margin-top: 1.25rem;
 }
 
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
+.mb-20 {
+  margin-bottom: 5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -658,6 +666,10 @@ video {
   margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
+.scroll-smooth {
+  scroll-behavior: smooth;
+}
+
 .rounded-\[30px\] {
   border-radius: 30px;
 }
@@ -688,17 +700,31 @@ video {
   stroke-width: 2;
 }
 
-.p-5 {
-  padding: 1.25rem;
+.p-20 {
+  padding: 5rem;
 }
 
-.p-10 {
-  padding: 2.5rem;
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.pb-10 {
+  padding-bottom: 2.5rem;
+}
+
+.pb-24 {
+  padding-bottom: 6rem;
 }
 
 .font-sans {
